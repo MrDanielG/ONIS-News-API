@@ -30,7 +30,7 @@ To validate, perform a GET to the following routes and check the responses:
 
 1. http://localhost:8080
     ```json
-    { "message": "Hello world! Tutori-app is alive!" }
+    { "message": "Hello world! ONIS-News-API is alive!" }
     ```
 2. http://localhost:8080/api/tests
     ```json
