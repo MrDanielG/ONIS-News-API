@@ -1,3 +1,4 @@
+import cors from 'cors';
 import 'dotenv/config';
 import express from 'express';
 import { router as newsRoutes } from './routes/news.routes.js';
@@ -6,6 +7,7 @@ const app = express();
 const PORT = process.env.PORT || 8080;
 const HOST = 'http://localhost';
 
+app.use(cors());
 app.use('/', newsRoutes);
 
 app.get('/', (_, res) => {
