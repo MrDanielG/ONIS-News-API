@@ -8,7 +8,7 @@ const HOST = 'http://localhost';
 
 app.use('/', newsRoutes);
 
-app.get('/', (req, res) => {
+app.get('/', (_, res) => {
     res.json({
         message: 'Hello world! ONIS-News-API is alive!',
         key: `process.env.API_KEY ${process.env.API_KEY}`,
