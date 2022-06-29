@@ -31,12 +31,14 @@ $ npm start
 To validate, perform a GET to the following routes and check the responses:
 
 1. http://localhost:8080
+
     ```json
     { "message": "Hello world! ONIS-News-API is alive!" }
     ```
-2. http://localhost:8080/api/tests
-    ```json
-    { "message": "Not Implemented" }
+
+2. http://localhost:8080/api-docs/
+    ```
+    Swagger Documentation
     ```
 
 ### NPM Scripts
