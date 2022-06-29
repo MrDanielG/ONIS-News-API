@@ -20,6 +20,8 @@ In the root directory of the repository, install the NPM dependencies:
 $ npm i
 ```
 
+**IMPORTANT:** Be sure to have a `.env` file with the correct credentials. You can copy `.env.example` and chenge the values.
+
 If all the installation and configuration is valid, you will be able to launch the Node.js app without errors.
 
 ```shell script
